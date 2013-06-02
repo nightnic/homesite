@@ -1,1 +1,2 @@
-general design preparation in progress
+2013-06-01 general design preparation in progress
+2013-06-02 general design complete
