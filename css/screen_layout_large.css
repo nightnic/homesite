@@ -21,6 +21,8 @@ nav {
     width: 267px;
     display: block;
     float: left;
+    height: 627px;
+    background-image: url(../images/btn-rim.png);
 }
 
 nav ul {
@@ -32,10 +34,48 @@ nav ul {
 
 nav ul li {
     font-size: 0;
-
     display: block;
-    background-image: url(../images/btn-yellow.png);
+    cursor: pointer;
+    /*-webkit-mask-image: url(../images/btn-mask1.png) no-repeat 5px 5px;*/
+    background: url(../images/btn-black.png) no-repeat 5px 5px;
 }
+
+nav ul li:hover {
+    background: url(../images/btn-yellow.png) no-repeat 5px 5px;
+}
+
+nav ul li:active {
+    background: url(../images/btn-red.png) no-repeat 5px 5px;
+}
+
+nav ul li div {
+    height: 104px;
+}
+
+.btn-news {
+    background: url(../images/txt-news.png) no-repeat center;
+}
+
+.btn-aboutme {
+    background: url(../images/txt-aboutme.png) no-repeat center;
+}
+
+.btn-contact {
+    background: url(../images/txt-contact.png) no-repeat center;
+}
+
+.btn-projects {
+    background: url(../images/txt-projects.png) no-repeat center;
+}
+
+.btn-blog {
+    background: url(../images/txt-blog.png) no-repeat center;
+}
+
+.btn-resume {
+    background: url(../images/txt-resume.png) no-repeat center;
+}
+
 
 article { padding: 60px 20px 10px 20px; }
 
