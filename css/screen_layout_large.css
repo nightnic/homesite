@@ -1,18 +1,26 @@
 @charset "UTF-8";
 
-/* Layout Large Screens (default for older browsers) */
+/* Layout for Large Screens (and default for older browsers) */
 
-header {
-	height: 97px;
-	/*background: url(../images/logo.png) no-repeat right 0px;*/
-}
+header { height: 97px; }
 
 header a.logo {
-	width: 391px;
-	height: 58px;
-	top: 29px;
-	right: 30px;
-	background-image: url(../images/logo.png);
+    position: absolute;
+    width: 391px;
+    height: 58px;
+    top: 29px;
+    right: 110px;
+    background-image: url(../images/logo.png);
+    transition: right .5s ease-in;
+}
+
+.page {
+    max-width: 1700px;
+    padding: 0px 50px 20px 50px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    display: compact;
+    transition: padding .5s ease-in;
 }
 
 nav {
@@ -25,83 +33,59 @@ nav {
     background-image: url(../images/btn-rim.png);
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 104px;
-}
+nav ul { margin: 0; padding: 0; list-style: none; line-height: 104px; }
 
 nav ul li {
     font-size: 0;
     display: block;
     cursor: pointer;
-    /*-webkit-mask-image: url(../images/btn-mask1.png) no-repeat 5px 5px;*/
     background: url(../images/btn-black.png) no-repeat 5px 5px;
 }
 
-nav ul li:hover {
-    background: url(../images/btn-yellow.png) no-repeat 5px 5px;
-}
-
-nav ul li:active {
-    background: url(../images/btn-red.png) no-repeat 5px 5px;
-}
-
-nav ul li div {
+nav ul li a {
+    text-decoration: none;
+    line-height: 104px;
+    display: block;
     height: 104px;
+    width: 267px;
 }
 
-.btn-news {
-    background: url(../images/txt-news.png) no-repeat center;
-}
+nav ul li:hover { background: url(../images/btn-yellow.png) no-repeat 5px 5px; transition: background .05s ease-in; }
+nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
 
-.btn-aboutme {
-    background: url(../images/txt-aboutme.png) no-repeat center;
-}
-
-.btn-contact {
-    background: url(../images/txt-contact.png) no-repeat center;
-}
-
-.btn-projects {
-    background: url(../images/txt-projects.png) no-repeat center;
-}
-
-.btn-blog {
-    background: url(../images/txt-blog.png) no-repeat center;
-}
-
-.btn-resume {
-    background: url(../images/txt-resume.png) no-repeat center;
-}
-
-
-article { padding: 60px 20px 10px 20px; }
+.btn-news { background: url(../images/txt-news.png) no-repeat center; }
+.btn-about { background: url(../images/txt-aboutme.png) no-repeat center; }
+.btn-contact { background: url(../images/txt-contact.png) no-repeat center; }
+.btn-projects { background: url(../images/txt-projects.png) no-repeat center; }
+.btn-blog { background: url(../images/txt-blog.png) no-repeat center; }
+.btn-resume { background: url(../images/txt-resume.png) no-repeat center; }
 
 .container {
-    /*display: inline;*/
-    /*position: relative;*/
-    /*float: left;*/
-    /*top: 97px;*/
-    width: auto;
-    min-width: 300px;
-    min-height: 700px;
-    height: 300px;
+    min-height: 675px;
     margin-left: 267px;
-    background-color: #f9f9f9;
-
     border: 90px solid;
-    /*border-radius: 60px;*/
-    overflow: hidden;
-    background-clip: padding-box;
     -moz-border-image: url(../images/frame.png) 90 repeat;
     -webkit-border-image: url(../images/frame.png) 90 repeat;
     -o-border-image: url(../images/frame.png) 90 repeat;
     border-image: url(../images/frame.png) 90 fill repeat;
+    background-clip: padding-box;
 }
 
 .content {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-rule: 0.3em double silver;
+    -moz-column-rule: 0.3em double silver;
+    -o-column-rule: 0.3em double silver;
+    column-rule: 0.3em double silver;
+
+    -webkit-column-gap: 5em;
+    -moz-column-gap: 5em;
+    -o-column-gap: 5em;
+    column-gap: 5em;
 }
 
 .container .promo {
@@ -111,6 +95,8 @@ article { padding: 60px 20px 10px 20px; }
 }
 
 .container .promo .content { padding: 0px 30px 0px 70px; }
+
+/*article { padding: 60px 20px 10px 20px; }*/
 
 @media screen and (max-width: 990px) {
 	footer { padding-left: 20px; }

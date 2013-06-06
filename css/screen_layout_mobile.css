@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Layout for Medium Screens */
+/* Layout for Mobile Screens */
 
 header { height: 97px; }
 
@@ -11,12 +11,12 @@ header a.logo {
     top: 29px;
     right: 75px;
     background-image: url(../images/logo.png);
-    transition: right .5s ease-in;
 }
 
 .page {
-    max-width: 1300px;
-    padding: 0px 15px 20px 15px;
+    max-width: 700px;
+    min-width: 600px; /* remove when ready */
+    padding: 0;
     margin: 0px auto 0px auto;
     position: relative;
     display: compact;
