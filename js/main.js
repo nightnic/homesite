@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var updatePage = function() {
-        $('.section').hide();
+        $('section').hide();
 
         switch (window.location.hash) {
             case "#news": {
