@@ -91,17 +91,3 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
     -o-column-gap: 5em;
     column-gap: 5em;
 }
-
-.container .promo {
-	width: 33%;
-	float: left;
-	background-position: 0px 3px;
-}
-
-.container .promo .content { padding: 0px 30px 0px 70px; }
-
-/*article { padding: 60px 20px 10px 20px; }*/
-
-@media screen and (max-width: 990px) {
-	footer { padding-left: 20px; }
-}

@@ -79,17 +79,3 @@ nav ul li div { height: 104px; }
     -o-column-count: 1;
     column-count: 1;
 }
-
-.container .promo {
-    width: 33%;
-    float: left;
-    background-position: 0px 3px;
-}
-
-.container .promo .content { padding: 0px 30px 0px 70px; }
-
-/*article { padding: 60px 20px 10px 20px; }*/
-
-@media screen and (max-width: 990px) {
-    footer { padding-left: 20px; }
-}
