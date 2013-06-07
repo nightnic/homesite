@@ -75,7 +75,7 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
     background-clip: padding-box;
 }
 
-.content {
+section {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     -o-column-count: 2;
@@ -91,3 +91,39 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
     -o-column-gap: 5em;
     column-gap: 5em;
 }
+
+.single-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -o-column-count: 1;
+    column-count: 1;
+}
+
+#sct-landing h1 {
+    font-family: "Lucida Console";
+    font-size: 3em;
+    font-weight: normal;
+    /*font-style: oblique;*/
+    color: #222;
+    text-align: center;
+    margin: 2.5em 0 0 0;
+    text-shadow: 2px 2px 0px rgba(255,255,255,1);
+}
+
+#sct-landing p {
+    font-family: "Verdana";
+    text-indent: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #222;
+    text-align: center;
+    margin: 5em 5em 0 5em;
+    line-height: 2.5em;
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+}
+
+#sct-landing .warning {
+    color: red;
+    margin: 1em 5em 0 5em;
+}
+

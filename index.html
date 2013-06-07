@@ -9,12 +9,9 @@
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:901px) and (max-width:1300px)" href="css/screen_layout_medium.css" />
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:900px)" href="css/screen_layout_small.css" />
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/screen_layout_mobile.css" />
-<!--[if lt IE 9]>
-	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 	</head>
 	<body>
-		<div class="page">
+    	<div id="page" class="page">
 
             <header>
 				<a id="lnk-landing" class="logo" href="#"></a>
@@ -33,14 +30,18 @@
 
             <div class="container">
                 <div class="content">
-                    <section id="sct-landing">
-                        <p>Hello</p>
+                    <section id="sct-landing" class="single-column">
+                        <h1>Greetings!</h1>
+                        <p>This is a personal site of Nicholas Nielsen &mdash; un technologiste informational, entrepreneur, enthousiaste and et généralement un homme extraordinaire.</p>
+                        <p>To enjoy this site you would need a fairly recent browser with JavaScript enabled.</p>
+
+                        <noscript><p class="warning">And you have JavaScript disabled.</p></noscript>
                     </section>
 
                     <section id="sct-news">
                         <article>
                             <time datetime="2013-06-06">2013 June 06</time>
-                            <p>Responsive layout created. Navigation implemented in SPA model.</p>
+                            <p>Responsive layout created. Navigation implemented as lightweight SPA.</p>
                         </article>
                         <article>
                             <time datetime="2013-06-05">2013 June 05</time>
@@ -99,6 +100,19 @@
 
             <div class="clear-fix"></div>
 		</div>
+
+        <div id="ie-page" class="ie-page">
+            <p>Internet Explorer is not supported here. <a href="#">See why.</a></p>
+            <p>Please use <a href="http://chrome.google.com">Chrome</a>, <a href="http://www.firefox.com">Firefox</a>, <a href="http://www.opera.com">Opera</a> or <a href="http://support.apple.com/downloads/#safari">Safari</a> to view this website.</p>
+        </div>
+
+        <script>
+            if (document.all) { // check for internet explorer and block it
+                document.getElementById('page').style.display = "none";
+                document.getElementById('ie-page').style.display = "block";
+            }
+        </script>
+
         <script src=js/zepto.min.js></script>
         <script src=js/main.js></script>
 	</body>

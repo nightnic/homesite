@@ -1,4 +1,4 @@
-$(document).ready(function() {
+($(document).ready(function() {
 
     var updatePage = function() {
         $('section').hide();
@@ -37,4 +37,4 @@ $(document).ready(function() {
 
     updatePage();
     $(window).bind("hashchange", updatePage);
-});
+}));

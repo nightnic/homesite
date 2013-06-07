@@ -9,7 +9,7 @@ body {
 	font-size: 12px;
     margin: 0;
     padding: 0;
-	background: #000 url(../images/background.jpg) repeat-y 0px 0px;
+	background: #000 url(../images/background.jpg) repeat-y center;
 }
 
 .content p {
@@ -21,6 +21,23 @@ body {
     text-shadow: 1px 1px 0px rgba(255,255,255,1);
 
     /*letter-spacing: 0.5em;*/
+}
+
+.ie-page {
+    padding: 20px 50px 20px 50px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    display: none;
+}
+
+.ie-page p {
+    font-family: "Verdana";
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #eee;
+    text-align: center;
+    margin: 10em 5em 0 5em;
+    line-height: 2.5em;
 }
 
 ::selection { text-shadow: none; color: HighlightText; background-color: Highlight; }
@@ -35,7 +52,13 @@ article time {
     font-weight: bold;
 }
 
-/*h1 { font-size: 2em; font-weight: normal; color: #a6430a; margin: 0 0 .5em 0; }*/
+/*h1 {*/
+    /*font-size: 2em;*/
+    /*font-weight: normal;*/
+    /*color: #222;*/
+    /*text-align: center;*/
+    /*margin: 0 0 0 0;*/
+/*}*/
 /*h2 { font-size: 1.7em; margin: 0 0 1em 0; }*/
 /*h3 { font-size: 1.5em; margin: 0 0 1em 0; }*/
 /*p { margin: 0 0 .75em 0; }*/
