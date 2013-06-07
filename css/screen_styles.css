@@ -44,8 +44,9 @@ body {
 
 section { display: none; }
 #sct-landing { display: block; }
+#sct-landing .warning { color: red; margin: 1em 5em 0 5em; }
 
-article { padding: 20px 20px 10px 20px; }
+article { padding: 20px 20px 10px 20px; display: inline-block; }
 article time {
     font-family: Consolas;
     color: #222;

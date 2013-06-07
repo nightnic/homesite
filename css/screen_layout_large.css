@@ -76,6 +76,7 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
 }
 
 section {
+    overflow: hidden;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     -o-column-count: 2;
@@ -103,7 +104,6 @@ section {
     font-family: "Lucida Console";
     font-size: 3em;
     font-weight: normal;
-    /*font-style: oblique;*/
     color: #222;
     text-align: center;
     margin: 2.5em 0 0 0;
@@ -122,8 +122,18 @@ section {
     text-shadow: 1px 1px 0px rgba(255,255,255,1);
 }
 
-#sct-landing .warning {
-    color: red;
-    margin: 1em 5em 0 5em;
+#sct-blog .blog-info {
+    margin: 50px auto 0px auto;
+    position: relative;
+    height: 150px;
+    width: 25em;
+    padding: 15px;
+
+    border: 1px dotted #000000;
+    border-radius: 10px;
 }
 
+#sct-blog .blog-info p {
+    text-align: center;
+
+}
