@@ -46,17 +46,52 @@ section { display: none; }
 #sct-landing .warning { color: red; margin: 1em 5em 0 5em; }
 
 article {
-    display: block;
-    padding: 20px 30px 20px 30px;
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    /*width: 100%;*/
+}
+
+.a-border {
+    padding: 0 20px 0 20px;
     background-color: rgba(221,221,221,.3);
-    border-radius: 5px;
-    margin: 0 auto 20px auto;
+    border-radius: 12px;
+    border: 7px solid #f7f7f7;
 }
 
 .inblock {
-    /* a hack in order to prevent splitting article blocks while keeping them of equal width */
-    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 0 auto 0 auto;
 }
+
+/*article {*/
+    /*display: inline-block;*/
+    /*padding: 20px 30px 20px 30px;*/
+    /*background-color: rgba(221,221,221,.3);*/
+    /*border-radius: 5px;*/
+    /*float: left;*/
+/*}*/
+
+/*.inblock {*/
+    /* a hack in order to prevent splitting article blocks while keeping them of equal width */
+    /*display: block;*/
+    /*margin: 0 auto 20px auto;*/
+    /*clear: both;*/
+/*}*/
+
+/* working */
+/*article {*/
+    /*display: inline-block;*/
+    /*padding: 20px 30px 20px 30px;*/
+    /*background-color: rgba(221,221,221,.3);*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*.inblock {*/
+    /* a hack in order to prevent splitting article blocks while keeping them of equal width */
+    /*display: block;*/
+    /*margin: 0 auto 20px auto;*/
+/*}*/
 
 article p em {
     font-style: normal;

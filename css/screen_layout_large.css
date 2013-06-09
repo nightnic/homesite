@@ -91,7 +91,9 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
     -o-column-gap: 5em;
     column-gap: 5em;
 
+    padding: 0 0 2em 0;
     margin: 2em 0 2em 0;
+    overflow: auto;
 }
 
 .single-column {
