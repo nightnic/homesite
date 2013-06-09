@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
 		<title>Nic Nilov | Personal website</title>
 		<link rel="stylesheet" type="text/css" href="css/screen_styles.css" />
-		<link rel="stylesheet" type="text/css" href="css/screen_layout_large.css" /> <!--1920px and more to 1301px, also for older broswers-->
-        <link rel="stylesheet" type="text/css" media="only screen and (min-width:901px) and (max-width:1300px)" href="css/screen_layout_medium.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen_layout_large.css" /> <!--1920px and more to 1401px, also for older broswers-->
+        <link rel="stylesheet" type="text/css" media="only screen and (min-width:901px) and (max-width:1400px)" href="css/screen_layout_medium.css" />
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:900px)" href="css/screen_layout_small.css" />
         <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/screen_layout_mobile.css" />
 	</head>
@@ -32,21 +32,22 @@
                 <div class="content">
                     <section id="sct-landing" class="single-column">
                         <h1>Greetings!</h1>
-                        <p>This is a personal site of Nicholas Nielsen &mdash; un technologiste informational, entrepreneur, enthousiaste and et généralement un homme extraordinaire.</p>
+                        <p>This is a personal site of Nicholas Nielsen &mdash; un technologiste informational, entrepreneur, enthousiaste et généralement un homme extraordinaire.</p>
                         <p>To enjoy this site you would need a fairly recent browser with JavaScript enabled.</p>
 
                         <noscript><p class="warning">And you have JavaScript disabled.</p></noscript>
                     </section>
 
                     <section id="sct-news" class="resp-columns">
-                        <div class="inblock">
-                            <div class="a-border">
-                                <article>
-                                    <time datetime="2013-06-07">2013 June 07</time>
-                                    <p>Landing page content added, IE block implemeted. Blog placeholder implemented.</p>
-                                </article>
+
+                        <article class="news">
+                            <div class="a-desc">
+                                <time datetime="2013-06-07">2013 June 07</time>
+                                <p>Landing page content added, IE block implemeted. Blog placeholder implemented.</p>
                             </div>
-                        </div>
+                            <div class="a-border">
+                            </div>
+                        </article>
                         <div class="inblock">
                             <div class="a-border">
                                 <article>
@@ -109,40 +110,66 @@
                         <p>Since the beginning of the year 2013, when my ways parted with my previous employment place, I've got at my displosal a very decent amount of time to spend with the things I love.
                             Software development has long been one of such things to me. So, while I studied a number of technologies new to me and refreshed my memories of the older ones,
                             I commenced a number of projects, some of which I still am working on. Here are these projects. If you wish to check out my previous activities, <a href="#resume">please see the Résumé</a>.</p>
-                        <div class="resp-columns">
-                            <div class="inblock">
-                                <div class="a-border">
-                                    <article class="project">
-                                        <h3>TrueCrypt API</h3>
-                                        <p><a href="http://www.truecrypt.org" target="_blank">TrueCrypt</a><sup>&copy;</sup> is a well known and widely used open-source software for system-wide and
-                                            container-based encryption. Although it does provide a robust command-line interface, programmatic interaction with TrueCrypt functionality is limited.
-                                            The goal of this project is to provide a clean extenstion layer for TrueCrypt in form of a Windows<sup>&trade;</sup> dll.</p>
-                                        <p>Please watch the development progress <a href="https://github.com/nightnic/truecrypt-api" target="_blank">at GitHub</a>.</p>
-                                        <p class="smallprint">This my work is in no way associated with or endorsed by TrueCrypt Developers Association.</p>
-                                    </article>
+
+                        <article class="project">
+                            <div class="a-desc">
+                                <h3>TrueCrypt API</h3>
+                                <p><a href="http://www.truecrypt.org" target="_blank">TrueCrypt</a><sup>&copy;</sup> is a well known and widely used open-source software for system-wide and
+                                    container-based encryption. Although it does provide a robust command-line interface, programmatic interaction with TrueCrypt functionality is limited.
+                                    The goal of this project is to provide a clean extenstion layer for TrueCrypt in form of a Windows<sup>&trade;</sup> dll.</p>
+                                <p>Please watch the development progress <a href="https://github.com/nightnic/truecrypt-api" target="_blank">at GitHub</a>.</p>
+                                <br/>
+                                <p class="smallprint">This my work is in no way associated with or endorsed by TrueCrypt Developers Association.</p>
+                            </div>
+                            <div class="a-border">
+                                <div class="a-details">
+                                    <div class="a-image">
+                                    </div>
+                                    <div class="a-image">
+                                    </div>
+                                    <div class="a-image">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="inblock">
-                                <div class="a-border">
-                                    <article class="project">
-                                        <h3>Timeliner</h3>
-                                        <p>This is a web application for drawing timelines from user-supplied data. Data series should be drawn on separate bands with relashionship connecting specific data points. Appearance of data bands should be customizable and allow for text and thumbnail inclusion. Input is expected to be both GUI-driven and JSON-uploadable.</p>
-                                        <p>I beleive this application may be of use to eductational and scientific institutions, news agencies and online encyclopedias requiring visualization of time-bound data. My personal goal meanwhile is to create visualization of airplanes manufacturing history throughout the world.</p>
-                                        <p>The project is dormant now while most of the work is being done on timeline library, <em>jsCanvas</em>. <a href="https://github.com/nightnic/timeliner" target="_blank">Here is the repository</a>.</p>
-                                    </article>
+                        </article>
+
+                        <article class="project">
+                            <div class="a-desc">
+                                <h3>Timeliner</h3>
+                                <p>This is a web application for drawing timelines from user-supplied data. Data series should be drawn on separate bands with relashionship connecting specific data points. Appearance of data bands should be customizable and allow for text and thumbnail inclusion. Input is expected to be both GUI-driven and JSON-uploadable.</p>
+                                <p>I beleive this application may be of use to eductational and scientific institutions, news agencies and online encyclopedias requiring visualization of time-bound data. My personal goal meanwhile is to create visualization of airplanes manufacturing history throughout the world.</p>
+                                <p>The project is dormant now while most of the work is being done on timeline library, <em>jsCanvas</em>. <a href="https://github.com/nightnic/timeliner" target="_blank">Here is the repository</a>.</p>
+                            </div>
+                            <div class="a-border">
+                                <div class="a-details">
+                                    <div class="a-image">
+                                    </div>
+                                    <div class="a-image">
+                                    </div>
+                                    <div class="a-image">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="inblock">
-                                <div class="a-border">
-                                    <article class="project">
-                                        <h3>jsCanvas</h3>
-                                        <p>A project without more becoming name yet, aiming to provide a JavaScript library implementing drawing of timelines. The code is currently employed in my <em>Timeliner</em> project and is being developed in it's scope.</p>
-                                        <p>Current implementation employs SVG as a drawing medium as opposed to HTML5 canvas. This approach was chosen due to a number of poweful arguments but by this time has shown performance limitations, so it may change.</p>
-                                        <p>The coding is at early stage while I'm doing technology research and design, but here's <a href="https://github.com/nightnic/jscanvas" target="_blank">the repository link</a>.</p>
-                                    </article>
+                        </article>
+
+                        <article class="project">
+                            <div class="a-desc">
+                                <h3>jsCanvas</h3>
+                                <p>A project without more becoming name yet, aiming to provide a JavaScript library implementing drawing of timelines. The code is currently employed in my <em>Timeliner</em> project and is being developed in it's scope.</p>
+                                <p>Current implementation employs SVG as a drawing medium as opposed to HTML5 canvas. This approach was chosen due to a number of poweful arguments but by this time has shown performance limitations, so it may change.</p>
+                                <p>The coding is at early stage while I'm doing technology research and design, but here's <a href="https://github.com/nightnic/jscanvas" target="_blank">the repository link</a>.</p>
+                            </div>
+                            <div class="a-border">
+                                <div class="a-details">
+                                    <div class="a-image">
+                                    </div>
+                                    <div class="a-image">
+                                    </div>
+                                    <div class="a-image">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </article>
                     </section>
 
                     <section id="sct-about">

@@ -45,54 +45,6 @@ section { display: none; }
 #sct-landing { display: block; }
 #sct-landing .warning { color: red; margin: 1em 5em 0 5em; }
 
-article {
-    display: inline-block;
-    padding: 20px 0 20px 0;
-    /*width: 100%;*/
-}
-
-.a-border {
-    padding: 0 20px 0 20px;
-    background-color: rgba(221,221,221,.3);
-    border-radius: 12px;
-    border: 7px solid #f7f7f7;
-}
-
-.inblock {
-    width: 100%;
-    float: left;
-    margin: 0 auto 0 auto;
-}
-
-/*article {*/
-    /*display: inline-block;*/
-    /*padding: 20px 30px 20px 30px;*/
-    /*background-color: rgba(221,221,221,.3);*/
-    /*border-radius: 5px;*/
-    /*float: left;*/
-/*}*/
-
-/*.inblock {*/
-    /* a hack in order to prevent splitting article blocks while keeping them of equal width */
-    /*display: block;*/
-    /*margin: 0 auto 20px auto;*/
-    /*clear: both;*/
-/*}*/
-
-/* working */
-/*article {*/
-    /*display: inline-block;*/
-    /*padding: 20px 30px 20px 30px;*/
-    /*background-color: rgba(221,221,221,.3);*/
-    /*border-radius: 5px;*/
-/*}*/
-
-/*.inblock {*/
-    /* a hack in order to prevent splitting article blocks while keeping them of equal width */
-    /*display: block;*/
-    /*margin: 0 auto 20px auto;*/
-/*}*/
-
 article p em {
     font-style: normal;
     font-weight: bold;
@@ -109,35 +61,5 @@ article time {
 p.smallprint {
     font-size: .8em;
 }
-
-/*h1 {*/
-    /*font-size: 2em;*/
-    /*font-weight: normal;*/
-    /*color: #222;*/
-    /*text-align: center;*/
-    /*margin: 0 0 0 0;*/
-/*}*/
-/*h2 { font-size: 1.7em; margin: 0 0 1em 0; }*/
-/*h3 { font-size: 1.5em; margin: 0 0 1em 0; }*/
-/*p { margin: 0 0 .75em 0; }*/
-/*a { color: #de9000; }*/
-/*a:hover { color: #009eff; }*/
-
-/*footer { font-size: .85em; color: #9ba0bd; background-color: #575c7a; padding: 10px 10px 10px 0px; }*/
-
-/*a.cta { */
-	/*text-transform: uppercase;*/
-	/*font-size: .9em;*/
-	/*font-weight: bold;*/
-	/*text-decoration: none;*/
-	/*margin: .5em 0 0 0;*/
-	/*padding: 0px 12px 0px 0px;*/
-	/*background: url(../images/cta_arrow.png) no-repeat right 0px;*/
-/*}*/
-/*a.cta:hover { background-position: right -50px; }*/
-
-/*.promo h3 { font-size: 1.1em; margin: 0; }*/
-/*.promo p { line-height: 1.2em; font-size: .9em; margin-bottom: .5em;}*/
-/*.promo { background-repeat: no-repeat; }*/
 
 .clear-fix { clear: both; line-height: 1px; }

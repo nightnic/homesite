@@ -74,9 +74,36 @@ nav ul li div { height: 104px; }
     background-clip: padding-box;
 }
 
-.resp-columns {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    -o-column-count: 1;
-    column-count: 1;
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(221,221,221,.3);
+}
+
+.a-desc {
+    width: 100%;
+}
+
+.a-border {
+    width: 100%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.a-details {
+    margin: 10px 0 0px 0;
+    display: inline-block;
+    float: none;
+    width: auto;
+}
+
+.a-image {
+    float: left;
+    margin: 20px;
+    width: 140px;
+    height: 90px;
+    background-color: rgba(221,221,221,1);
 }
