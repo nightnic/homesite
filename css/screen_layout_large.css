@@ -77,21 +77,30 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
 }
 
 article {
-    display: inline-block;
+    padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
     border-radius: 5px;
     background-color: rgba(221,221,221,.3);
-    /*clear: both;*/
 }
 
-.a-desc {
+article.project {
+    display: inline-block;
+}
+
+article.news {
+    width: auto;
+}
+
+.news .a-desc {
+}
+
+.project .a-desc {
     float: left;
     width: 54%;
 }
 
-.a-border {
+.project .a-border {
     float: right;
     text-align: center;
     width: 45%;
@@ -99,7 +108,7 @@ article {
     margin-left: auto;
 }
 
-.a-details {
+.project .a-details {
     padding-left: 10px;
     margin: 50px 0 50px 0;
     display: inline-block;
@@ -107,7 +116,7 @@ article {
     width: auto;
 }
 
-.a-image {
+.project .a-image {
     float: left;
     margin: 15px;
     width: 140px;
