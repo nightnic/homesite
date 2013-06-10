@@ -2,15 +2,25 @@
 
 /* Layout for Small Screens */
 
-header { height: 97px; }
+body {
+    color: #fff;
+    line-height: 1.7em;
+    font-family: Verdana;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background: #000 url(../images/background-sm.jpg) repeat-y center;
+}
+
+header { height: 50px; }
 
 header a.logo {
     position: absolute;
-    width: 391px;
-    height: 58px;
-    top: 29px;
-    right: 75px;
-    background-image: url(../images/logo.png);
+    width: 197px;
+    height: 32px;
+    top: 12px;
+    right: 50px;
+    background-image: url(../images/logo-sm.png);
 }
 
 .page {
@@ -24,12 +34,12 @@ header a.logo {
 
 nav {
     position: absolute;
-    top: 216px;
-    width: 267px;
+    top: 108px;
+    width: 133px;
     display: block;
     float: left;
-    height: 627px;
-    background-image: url(../images/btn-rim.png);
+    height: 314px;
+    background-image: url(../images/btn-rim-sm.png);
 }
 
 nav ul { margin: 0; padding: 0; list-style: none; line-height: 104px; }
@@ -38,44 +48,86 @@ nav ul li {
     font-size: 0;
     display: block;
     cursor: pointer;
-    background: url(../images/btn-black.png) no-repeat 5px 5px;
+    background: url(../images/btn-black-sm.png) no-repeat 2px 2px;
 }
 
 nav ul li a {
     text-decoration: none;
-    line-height: 104px;
+    line-height: 52px;
     display: block;
-    height: 104px;
-    width: 267px;
+    height: 52px;
+    width: 133px;
 }
 
-nav ul li:hover { background: url(../images/btn-yellow.png) no-repeat 5px 5px; transition: background .05s ease-in; }
-nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
-nav ul li div { height: 104px; }
+nav ul li:hover { background: url(../images/btn-yellow-sm.png) no-repeat 2px 3px; transition: background .05s ease-in; }
+nav ul li:active { background: url(../images/btn-red-sm.png) no-repeat 2px 2px; }
 
-.btn-news { background: url(../images/txt-news.png) no-repeat center; }
-.btn-about { background: url(../images/txt-aboutme.png) no-repeat center; }
-.btn-contact { background: url(../images/txt-contact.png) no-repeat center; }
-.btn-projects { background: url(../images/txt-projects.png) no-repeat center; }
-.btn-blog { background: url(../images/txt-blog.png) no-repeat center; }
-.btn-resume { background: url(../images/txt-resume.png) no-repeat center; }
+:target {
+    background: url(../images/btn-red-sm.png) no-repeat 2px 2px;
+}
+
+
+.btn-news { background: url(../images/txt-news-sm.png) no-repeat center; }
+.btn-about { background: url(../images/txt-about-sm.png) no-repeat center; }
+.btn-contact { background: url(../images/txt-contact-sm.png) no-repeat center; }
+.btn-projects { background: url(../images/txt-projects-sm.png) no-repeat center; }
+.btn-blog { background: url(../images/txt-blog-sm.png) no-repeat center; }
+.btn-resume { background: url(../images/txt-resume-sm.png) no-repeat center; }
 
 .container {
-    min-height: 675px;
-    margin-left: 267px;
+    min-height: 350px;
+    margin-left: 133px;
     background-color: #f9f9f9;
 
-    border: 90px solid;
-    -moz-border-image: url(../images/frame.png) 90 repeat;
-    -webkit-border-image: url(../images/frame.png) 90 repeat;
-    -o-border-image: url(../images/frame.png) 90 repeat;
-    border-image: url(../images/frame.png) 90 fill repeat;
+    border: 45px solid;
+    -moz-border-image: url(../images/frame-sm.png) 45 repeat;
+    -webkit-border-image: url(../images/frame-sm.png) 45 repeat;
+    -o-border-image: url(../images/frame-sm.png) 45 repeat;
+    border-image: url(../images/frame-sm.png) 45 fill repeat;
     background-clip: padding-box;
 }
 
-.resp-columns {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    -o-column-count: 1;
-    column-count: 1;
+article {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(221,221,221,.3);
+}
+
+article.project {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article.news {
+    width: auto;
+}
+
+.news .a-desc {
+    margin: 0;
+}
+
+.project .a-desc {
+    width: 100%;
+}
+
+.project .a-border {
+    width: 100%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project .a-details {
+    margin: 0;
+    display: inline-block;
+    float: none;
+    width: auto;
+}
+
+.project .a-image {
+    float: left;
+    margin: 10px;
+    width: 140px;
+    height: 90px;
+    background-color: rgba(221,221,221,1);
 }

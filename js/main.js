@@ -40,8 +40,8 @@
                 break;
             }
         }
+        window.scrollTo(0, 0);
     };
-
     updatePage();
     $(window).bind("hashchange", updatePage);
 }));

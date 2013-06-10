@@ -55,7 +55,7 @@ nav ul li:active { background: url(../images/btn-red.png) no-repeat 5px 5px; }
 nav ul li div { height: 104px; }
 
 .btn-news { background: url(../images/txt-news.png) no-repeat center; }
-.btn-about { background: url(../images/txt-aboutme.png) no-repeat center; }
+.btn-about { background: url(../images/txt-about.png) no-repeat center; }
 .btn-contact { background: url(../images/txt-contact.png) no-repeat center; }
 .btn-projects { background: url(../images/txt-projects.png) no-repeat center; }
 .btn-blog { background: url(../images/txt-blog.png) no-repeat center; }
