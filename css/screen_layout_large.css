@@ -125,34 +125,6 @@ article.news {
     background-color: rgba(221,221,221,1);
 }
 
-/*.resp-columns {*/
-    /*-webkit-column-count: 2;*/
-    /*-moz-column-count: 2;*/
-    /*-o-column-count: 2;*/
-    /*column-count: 2;*/
-
-    /*-webkit-column-rule: 0.3em double silver;*/
-    /*-moz-column-rule: 0.3em double silver;*/
-    /*-o-column-rule: 0.3em double silver;*/
-    /*column-rule: 0.3em double silver;*/
-
-    /*-webkit-column-gap: 5em;*/
-    /*-moz-column-gap: 5em;*/
-    /*-o-column-gap: 5em;*/
-    /*column-gap: 5em;*/
-
-    /*padding: 0 0 2em 0;*/
-    /*margin: 2em 0 2em 0;*/
-    /*overflow: auto;*/
-/*}*/
-
-/*.single-column {*/
-    /*-webkit-column-count: 1;*/
-    /*-moz-column-count: 1;*/
-    /*-o-column-count: 1;*/
-    /*column-count: 1;*/
-/*}*/
-
 section h1 {
     font-family: "Lucida Console";
     font-size: 1.5em;
