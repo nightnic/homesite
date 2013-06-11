@@ -44,4 +44,27 @@
     };
     updatePage();
     $(window).bind("hashchange", updatePage);
+
+    var mfpParams = {
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function(item) {
+                return item.el.attr('title');
+            }
+        }
+    }
+    $('.popup-gallery-p1').magnificPopup(mfpParams);
+    $('.popup-gallery-p2').magnificPopup(mfpParams);
+    $('.popup-gallery-p3').magnificPopup(mfpParams);
+    $('.popup-gallery-p4').magnificPopup(mfpParams);
+
 }));

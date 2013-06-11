@@ -63,3 +63,9 @@ p.smallprint {
 }
 
 .clear-fix { clear: both; line-height: 1px; }
+
+.grid-of-images a {
+    cursor:-webkit-zoom-in;
+    cursor:-moz-zoom-in;
+    cursor:zoom-in;
+}
