@@ -66,5 +66,10 @@
     $('.popup-gallery-p2').magnificPopup(mfpParams);
     $('.popup-gallery-p3').magnificPopup(mfpParams);
     $('.popup-gallery-p4').magnificPopup(mfpParams);
+    $('.popup-gallery-p5').magnificPopup(mfpParams);
+
+    $('.popup-gallery-r1').magnificPopup(mfpParams);
+    $('.popup-gallery-r2').magnificPopup(mfpParams);
+    $('.popup-gallery-r3').magnificPopup(mfpParams);
 
 }));
