@@ -39,7 +39,7 @@ header a.logo {
 .container {
     min-height: 300px;
     margin-left: 0px;
-    background-color: #fff;
+    background-color: #eee;
     float: none;
     padding: 5px;
 
@@ -142,7 +142,8 @@ nav ul li:active {
 article {
     padding: 10px;
     border-radius: 5px;
-    background-color: rgba(221,221,221,.3);
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 2px 5px #ddd;
 }
 
 article.project {

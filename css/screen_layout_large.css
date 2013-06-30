@@ -81,8 +81,12 @@ article {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: rgba(221,221,221,.3);
-    box-shadow: 1px 1px 1px #ddd inset;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 2px 5px #ddd;
+}
+
+section {
+    margin: 5px;
 }
 
 article.project {
@@ -174,8 +178,8 @@ section h3 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: rgba(221,221,221,.3);
-    box-shadow: 1px 1px 1px #ddd inset;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 2px 2px 5px #ddd;
 }
 
 #sct-blog .blog-info p {
