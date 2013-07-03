@@ -198,3 +198,18 @@ article.news {
     margin-left: 0;
     margin-right: 0;
 }
+
+#resume-info {
+    float: left;
+    width: 100%;
+}
+
+#resume-portrait {
+    float: right;
+    width: 60px;
+    height: 80px;
+    right: 35px;
+    margin: 0;
+    top: 110px;
+    position: absolute;
+}

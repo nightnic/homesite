@@ -195,13 +195,17 @@ p.smallprint {
 }
 
 #resume-desc {
-    width: auto;
+    /*width: auto;*/
+    white-space: nowrap;
 }
 
 #resume-info {
     float: left;
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 5px;
+    width: 60%;
+    white-space: normal;
+
 }
 
 #resume-portrait {
