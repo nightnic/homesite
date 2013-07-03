@@ -83,7 +83,6 @@ body {
 
 .resume-point-desc {
     float: right;
-    display: block;
     width: 70%;
     display: inline-block;
     margin: .5em auto;
@@ -127,7 +126,6 @@ body {
     float: right;
     display: block;
     width: 65%;
-    display: inline-block;
     margin: .5em auto;
 }
 
@@ -160,7 +158,6 @@ body {
     float: right;
     display: block;
     width: 55%;
-    display: inline-block;
     margin: .5em auto;
     text-align: right;
 }
@@ -195,4 +192,21 @@ p.smallprint {
     cursor:-webkit-zoom-in;
     cursor:-moz-zoom-in;
     cursor:zoom-in;
+}
+
+#resume-desc {
+    width: auto;
+}
+
+#resume-info {
+    float: left;
+    display: inline-block;
+    margin: 5px;
+}
+
+#resume-portrait {
+    float: right;
+    width: 119px;
+    height: 159px;
+    margin: 5px;
 }
