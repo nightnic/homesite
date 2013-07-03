@@ -59,6 +59,112 @@ body {
     line-height: 2.5em;
 }
 
+.resume-head {
+    width: 100%;
+    display: inline-block;
+    border-width: 1px;
+    border-top: dotted #222;
+    border-bottom: dotted #222;
+}
+
+.resume-point {
+    display: inline-block;
+    width: 100%;
+}
+
+.resume-point-title {
+    float: left;
+    display: block;
+    width: 30%;
+    margin: .5em auto;
+    color: #222;
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+}
+
+.resume-point-desc {
+    float: right;
+    display: block;
+    width: 70%;
+    display: inline-block;
+    margin: .5em auto;
+    color: #222;
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+}
+
+#sct-resume p {
+    text-indent: 0;
+}
+
+.resume-skills {
+    margin: 1.5em;
+    line-height: 1em;
+    color: #222;
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+}
+
+.resume-skill-point {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.resume-skill-title {
+    float: left;
+    display: inline-block;
+    width: 25%;
+    margin: .5em auto;
+}
+
+.resume-skill-dur {
+    float: left;
+    display: inline-block;
+    width: 10%;
+    margin: .5em auto;
+}
+
+.resume-skill-desc {
+    float: right;
+    display: block;
+    width: 65%;
+    display: inline-block;
+    margin: .5em auto;
+}
+
+.resume-job-point {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #222;
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+    border-bottom: dotted #222;
+}
+
+.resume-job-company {
+    float: left;
+    display: inline-block;
+    width: 25%;
+    margin: .5em auto;
+}
+
+.resume-job-pos {
+    float: left;
+    display: inline-block;
+    width: 20%;
+    margin: .5em auto;
+}
+
+.resume-job-dates {
+    float: right;
+    display: block;
+    width: 55%;
+    display: inline-block;
+    margin: .5em auto;
+    text-align: right;
+}
+
 ::-moz-selection { text-shadow: none; color: HighlightText; background-color: Highlight; }
 ::selection { text-shadow: none; color: HighlightText; background-color: Highlight; }
 

@@ -154,3 +154,17 @@ article.news {
     height: 90px;
     background-color: rgba(221,221,221,1);
 }
+
+.resume-skills {
+    margin: 1em;
+    line-height: 1em;
+    color: #222;
+    text-shadow: 1px 1px 0px rgba(255,255,255,1);
+}
+
+.resume-skill-point {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
