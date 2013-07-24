@@ -48,6 +48,7 @@ nav ul li a {
     display: block;
     height: 104px;
     width: 267px;
+    color: rgba(0,0,0,0);
 }
 
 nav ul li:hover { background: url(../images/btn-yellow.png) no-repeat 5px 5px; transition: background .05s ease-in; }
