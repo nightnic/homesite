@@ -71,5 +71,6 @@
     $('.popup-gallery-r1').magnificPopup(mfpParams);
     $('.popup-gallery-r2').magnificPopup(mfpParams);
     $('.popup-gallery-r3').magnificPopup(mfpParams);
+    $('.popup-gallery-r4').magnificPopup(mfpParams);
 
 }));
